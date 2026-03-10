@@ -4,7 +4,7 @@ body{
 }
 .menu{
     position: absolute;
-    background-color: rgb(3, 160, 0);
+    background-color: rgb(38, 28, 106);
     height: 80px;
     width: 1540px;
     left: -1px;
@@ -18,7 +18,7 @@ label[for="email"]{
     top: 20px;
     font-weight: bolder;
     opacity: 70%;
-    color: rgba(2, 71, 125, 0.705);
+    color: rgba(94, 177, 240, 0.705);
 }
 label[for="phone"]{
     position: absolute;
@@ -28,16 +28,18 @@ label[for="phone"]{
     top: 20px;
     font-weight: bolder;
     opacity: 70%;
-    color: rgba(2, 71, 125, 0.705);
+    color: rgba(94, 177, 240, 0.705);
 }
 .ellenorzo{
     position: absolute;
     border-radius: 5px;
-    top: 300px;
+    top: 350px;
     background-color: white;
-    height: 220px;
-    width: 600px;
+    height: 275px;
+    width: 500px;
     right: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
 label[for="title"]{
     position: absolute;
@@ -69,9 +71,24 @@ label[for="szoveg"]{
     top: 80px;
     position: absolute;
     font-weight: 400;
+    display: block;
+    text-align: justify;
+    width: 450px;
+    left: 25px;
+    hyphens: auto;
 }
 button{
     position: absolute;
-    top: 190px;
-    left: 20px;
+    top: 240px;
+    left: 150px;
+}
+#loginpic{
+    position: absolute;
+    top: -250px;
+    right: 0px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 250px;
+    width: 500px;
 }
