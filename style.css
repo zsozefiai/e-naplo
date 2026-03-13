@@ -6,7 +6,7 @@ body{
     position: absolute;
     background-color: rgb(38, 28, 106);
     height: 80px;
-    width: 1540px;
+    width: 100%;
     left: -1px;
     top: 0px;
 }
