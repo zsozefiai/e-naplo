@@ -1,4 +1,4 @@
-@media only screen and (max-width: 412px){
+@media only screen and (width <= 80rem){
     body{
     overflow-x: hidden;
     background-color: rgb(211, 230, 246);

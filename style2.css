@@ -8,3 +8,10 @@ table{
     border-collapse: collapse;
     width: 100%;
 }
+th{
+    width: 300px;
+    hyphens: auto;
+}
+#ures{
+    border:none;
+}
