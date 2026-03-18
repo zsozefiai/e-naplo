@@ -2,7 +2,7 @@ th{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid rgb(57, 86, 124);
 }
 table{
     border-collapse: collapse;
@@ -14,4 +14,7 @@ th{
 }
 #ures{
     border:none;
+}
+tr:nth-child(even) {
+    background-color: rgba(78, 82, 85, 0.397);
 }
