@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 th{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
@@ -6,7 +9,10 @@ th{
 }
 table{
     border-collapse: collapse;
-    width: 100%;
+    width: 86%;
+    float: right;
+    margin-left: -10px;
+    padding-left: -99px;
 }
 th{
     width: 300px;
@@ -17,4 +23,21 @@ th{
 }
 tr:nth-child(even) {
     background-color: rgba(78, 82, 85, 0.397);
+}
+.felso{
+    height: 100px;
+    background-color: rgb(132, 191, 243);
+    margin: -9px;
+    margin-bottom: 1px;
+    float: right;
+    width: 1650px;
+}
+.bal{
+    height: 900px;
+    float: left;
+    background-color: rgb(6, 119, 224);
+    width: 288px;
+    margin-right: -20px;
+    margin-left: -20px;
+    margin-top: -20px;
 }
