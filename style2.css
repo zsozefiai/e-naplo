@@ -64,12 +64,24 @@ tr:nth-child(even) {
 #first, #second, #third, #fourth, #fifth, #sixth, #seventh, #eighth, #ninth, #tenth{
     border: none;
 }
-#vissza{
+.vissza{
     position: absolute;
     width: 10px;
     height: 100px;
     top: 300px;
-    left: 280px;
+    left: 380px;
+    background-color: black;
+    transform: translateX(-100%);
+    opacity: 0;
+}
+#vissza.hid{
+    opacity: 1;
+    transform: translateX(100%);
+    position: absolute;
+    width: 10px;
+    height: 100px;
+    top: 300px;
+    left: 1px;
     background-color: black;
 }
 #karalabe{
