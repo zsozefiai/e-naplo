@@ -10,7 +10,7 @@ th{
 }
 table{
     border-collapse: collapse;
-    width: 56%;
+    width: 80%;
     float: right;
     margin-left: -10px;
     padding-left: -99px;
@@ -35,12 +35,12 @@ tr:nth-child(even) {
     width: 1650px;
 }
 .bal{
-    height: 900px;
+    height: 850px;
     float: left;
     background-color: rgb(6, 119, 224);
     width: 288px;
     margin-right: -20px;
     margin-left: -20px;
-    margin-top: -20px;
+    margin-top: -1px;
 }
 }

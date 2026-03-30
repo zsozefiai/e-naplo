@@ -52,7 +52,22 @@ tr:nth-child(even) {
     margin-right: -20px;
     margin-left: -20px;
     margin-top: -20px;
+    transition: transform 0.4s ease-in-out, opacity 0.3s ease;
+}
+.bal.hidden{
+  transform: translateX(-100%);
+  opacity: 0;
+}
+.bal.visible{
+    transform: translateX(1%);
+    opacity: 100;
 }
 #first, #second, #third, #fourth, #fifth, #sixth, #seventh, #eighth, #ninth, #tenth{
     border: none;
+}
+.vissza{
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 100px;
 }
