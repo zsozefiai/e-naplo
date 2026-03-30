@@ -6,5 +6,11 @@ karalabe.addEventListener('click', () => {
     bal.classList.add('hidden');
 });
 vissza.addEventListener('click', () =>{
-    bal.classList.add('visible');
+    bal.classList.remove('hidden');
+});
+karalabe.addEventListener('click', () => {
+    document.body.classList.add('sidebar');
+});
+vissza.addEventListener('click', () =>{
+    document.body.classList.remove('sidebar');
 });

@@ -53,21 +53,35 @@ tr:nth-child(even) {
     margin-left: -20px;
     margin-top: -20px;
     transition: transform 0.4s ease-in-out, opacity 0.3s ease;
+    transform: translateX(0%);
+    opacity: 1;
 }
 .bal.hidden{
   transform: translateX(-100%);
   opacity: 0;
-}
-.bal.visible{
-    transform: translateX(1%);
-    opacity: 100;
+  position: absolute;   
 }
 #first, #second, #third, #fourth, #fifth, #sixth, #seventh, #eighth, #ninth, #tenth{
     border: none;
 }
-.vissza{
-    width: 100px;
+#vissza{
+    position: absolute;
+    width: 10px;
     height: 100px;
-    top: 100px;
-    left: 100px;
+    top: 300px;
+    left: 280px;
+    background-color: black;
+}
+#karalabe{
+    position: absolute;
+    background-color: rgb(1, 57, 68);
+    width: 10px;
+    height: 200px;
+    top: 150px;
+    right: 20px
+}
+.sidebar table{
+    min-width: 100%;
+    margin-left: 0;
+    float: none;
 }
