@@ -78,11 +78,13 @@ tr:nth-child(even) {
     opacity: 1;
     transform: translateX(100%);
     position: absolute;
-    width: 10px;
+    width: 4px;
     height: 100px;
     top: 300px;
-    left: 1px;
-    background-color: black;
+    left: -15px;
+    background-color: rgb(6, 119, 224);
+    border-color: rgb(6, 119, 224);
+    border-radius: 5px;
 }
 #karalabe{
     position: absolute;
@@ -93,7 +95,38 @@ tr:nth-child(even) {
     right: 20px
 }
 .sidebar table{
-    min-width: 100%;
+    min-width: 99%;
     margin-left: 0;
-    float: none;
+    float: right;
+}
+#logo{
+    height: 80px;
+    width: 180px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+#profilepic{
+    position: absolute;
+    right: -100px;
+    top: -25px;
+    height: 80px;
+    width: 80px;
+    border-radius: 1000px;
+}
+label[for="profile"]{
+    position: absolute;
+    right: 150px;
+    top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 25px;
+}
+label[for="school"]{
+    position: absolute;
+    left: 200px;
+    top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 21px;
 }
