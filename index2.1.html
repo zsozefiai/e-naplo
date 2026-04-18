@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style2.css">
+    <link rel="stylesheet" href="stylep2.css">
+    <link rel="web icon" href="static/gugi.js">
+    <title>Jegyek</title>
+</head>
+<body>
+    <div class="felso">
+         
+         <label for="school">203029/002 - Békéscsabai SZC Nemes Tihamér Technikum és Kollégium</label>
+         <label for="profile">Szathmári László Antal <img src="download.jpg" alt="pfp" id="profilepic"></label>
+    </div>
+    
+    <div class="bal" id="bal">
+        <button id="karalabe"></button>
+    </div>
+    <div class="tabla">
+        <button id="vissza"></button>
+        <table>
+    <tr>
+        <th>Tantárgy</th>
+        <th>Érdemjegy</th>
+    </tr>
+    {% for item in grades %}
+    <tr>
+        <td>{{ item.subject }}</td>
+        <td>{{ item.grade }}</td>
+    </tr>
+    {% endfor %}
+</table>
+    </div>
+    <script src="gugi.js"></script>
+</body>
+</html>
